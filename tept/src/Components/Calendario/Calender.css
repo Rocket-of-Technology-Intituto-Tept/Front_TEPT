@@ -1,0 +1,55 @@
+.calender-page {
+    width: 100%;
+    height: 150vh;
+}
+
+.header-cal {
+    height: 60px;
+    width: 100%;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2em;
+    color: #143296;
+    font-weight: 550;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-items: center;
+}
+
+.month-card {
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.header-month {
+    text-align: center;
+    font-weight: bold;
+    color: #143296;
+}
+
+.week-days {
+    border-bottom: 1px solid #ccc;
+    color: #143296;
+}
+  
+.week-day {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin: 1px;
+}
+  
+.week {
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}

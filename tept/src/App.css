@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;       
+}
+  
+body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);   
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #345dc5; 
+}
+
+body{
+    background-color: #b6dde9;
+}
